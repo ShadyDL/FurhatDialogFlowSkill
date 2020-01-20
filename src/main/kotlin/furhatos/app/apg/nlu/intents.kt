@@ -32,7 +32,7 @@ class StopIntent : Intent() {
             "Stop",
             "Stoppen nu",
             "Afsluiten",
-            "Hou je kop dicht"
+            "Echt stoppen nu"
         )
     }
 }

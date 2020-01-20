@@ -37,10 +37,10 @@ val start: State = state(interaction) {
     }
 
     onResponse {
-        furhat.say(async = true) {
-            +"Eens even kijken"
-            +Gestures.GazeAway
-        }
+//        furhat.say(async = true) {
+//            +"Eens even kijken"
+//            +Gestures.GazeAway
+//        }
 
         val response = call(sendQuestion(it.text, it.userId)) as String
         furhat.say(response)
